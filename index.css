@@ -158,31 +158,40 @@ body {
     padding-top: 23px;
     
 }
-.birthday_anniversary_valentine_christmas {
-    background-color: #fff;
+.occasions_img {
     font-family: "Gilroy_light";
-    font-size: 20px;
-    margin-top: 64px;
+    background-color: #fafafa;
     display: flex;
     justify-content: center;
     gap: 30px;
+    padding-top: 64px;
 }
-.occasions_column {
+.occasions_img :hover {
+    background-color: #fff;
+}
+.column {
+   display: flex;
+   flex-direction: column;
+   
+}
+.links_text {
+    width: 270px;
+    height: 166px;
+    font-family: "Gilroy_light";
+    display: flex;
     flex-direction: column;
-    position: absolute;
-} 
-.block_links {
+    background-color: #fafafa;
+    padding: 24px;
+}
+
+
+.style_links {
     font-size: 20px;
-    padding: 24px 0 118px 24px;
+    padding-bottom: 74px;
+   
 }
 .see_more {
     font-size: 14px;
-    padding-left: 24px;
-    
-
-}
-.birthday_padding {
-    padding: 24px 24px 118px 24px;
 }
 .Ready {
     height: 240px;
@@ -297,13 +306,16 @@ body {
     display: flex;
     justify-content: space-between;
 }
+.database :hover {
+    box-shadow: 10px 10px 15px 0px rgba(0, 0, 0, 0.05);
+    background-color: white;
+}
 
 .Database1 {
     width: 570px;
     height: 290px;
     margin: 40px 30px 80px 135px;
-    box-shadow: 10px 10px 15px 0px rgba(0, 0, 0, 0.05);
-    background-color: white;
+    
 }
 .Database2 {
     width: 570px;
